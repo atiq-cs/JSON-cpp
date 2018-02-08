@@ -67,9 +67,14 @@ We extract release archive of nlohmann-json and extract inside the directory whe
     └───x64
         └───Debug
 
-    
+Project settings looks like following,
+
+![Visual Studio project setting - header files](img/1.%20json%20lib%20inclusion.png)
+        
 ## Enabling Console Subsystem for the project
 We change the linker settings of the project to enable this.
+
+![Visual Studio project setting - linker settings](img/2.%20subsytem%20console.png)
     
 # References
-https://github.com/nlohmann/json
+ 1. [github - nlohmann/json](https://github.com/nlohmann/json)

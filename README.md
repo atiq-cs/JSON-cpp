@@ -1,6 +1,5 @@
-# JSON-cpp
+# JSON CPP
 JSON parsing using C++
-
 
 # Specs
 nlohmann-json version [3.1.0](https://github.com/nlohmann/json/releases/tag/v3.1.0) is used to test.
@@ -17,12 +16,11 @@ This way of including the header files enables us to include header file in foll
 
 We extract release archive of nlohmann-json and extract inside the directory where the project file reside. Dir layout looks like following,
     
-    > Tree /f D:\Code\cpp\ProblemSolving
+    > Tree /f ..\cpp\ProblemSolving
     Folder PATH listing for volume Data
     Volume serial number is 00000028 92E4:3E3D
-    D:\CODE\CPP\PROBLEMSOLVING
+    ..\CPP\PROBLEMSOLVING
     │   Main.cpp
-    │   Main_blank.cpp
     │   ProblemSolving.sln
     │   ProblemSolving.vcxproj
     │
@@ -70,11 +68,11 @@ We extract release archive of nlohmann-json and extract inside the directory whe
 Project settings looks like following,
 
 ![Visual Studio project setting - header files](img/1.%20json%20lib%20inclusion.png)
-        
+
 ## Enabling Console Subsystem for the project
 We change the linker settings of the project to enable this.
 
 ![Visual Studio project setting - linker settings](img/2.%20subsytem%20console.png)
-    
+
 # References
  1. [github - nlohmann/json](https://github.com/nlohmann/json)

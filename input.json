@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "San Fransisco Bay", "parent_id": null },
+  { "id": 2, "name": "San Jose", "parent_id": 1 },
+  { "id": 3, "name": "Santa Clara", "parent_id": 1 },
+  { "id": 4, "name": "N Capitol Ave", "parent_id": 2 },
+  { "id": 5, "name": "Man Hattan", "parent_id": 6 },
+  { "id": 6, "name": "New York", "parent_id": null }
+]
